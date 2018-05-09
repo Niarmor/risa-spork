@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="C:\Users\Uriel\Documents\fox.ico">
+	<title>ANIMALS</title>
+</head>
+<body>
+<font color="#D1F2EB">
+	<bodyonload="alert( estas en la pantalla de registro.")>
+	<div align="center">
+  <h1>REGISTRACION</h1>
+ 	
+  <br>
+	<h2>¿QUIEN ERES?</h2>
+	<br>
+	
+	<form>
+		<p>Nombre:<br><input type="text" name="Nombrecompleto"></p>
+		<p>Apellidos:<br><input type="text" name="Apellidocompleto"></p>	
+		<p>Correo:<br><input type="email" name="Correocompleto"></p>
+		<p>Fecha<br><input type="date" name="Fecha"></p>
+		<hr color="green"><br>
+		<h2>¿DE DONDE ERES?</h2>
+		<p>Pais<br><select name="PAIS">
+			<option>Mexico</option>
+			<option>Argentina</option>
+			<option>Ecuador</option>
+			<option>Chile</option>
+			<option></option>
+		     </select></p>
+                <p>Ciudad:<br><input type="text" name="ciudad"></p>
+		<hr color="green"><br>
+		<h2>NOMBRE DE TU CUENTA</h2>
+		<p>Nombre De Usuario:<br><input type="text" name="nombredeusuario"></p>
+        <p>Contraseña:<br><input type="Password" name="CONTRASEÑA"></p>
+        <p>Confirmar Contraseña:<br><input type="Password" name="CONFIRMAR"></p>
+        <p><input type="submit" value="Crear cuenta"></p>
+	</form></div>
+	<body background="C:\Users\Uriel\Desktop\350d2188634716dae9f3f61774f1716c.jpg">
+</body>
+</html>
